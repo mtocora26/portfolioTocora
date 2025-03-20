@@ -1,0 +1,46 @@
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.section img{
+    width:  100%;
+    max-width: 650px;
+    height: auto;
+}
+.tecnicals{
+    max-width: 40%;
+    height: auto;
+    margin: 30px;
+    margin-right: 300px;
+    padding: 30px;
+
+}
+.tecnicals h2{
+    font-size: 2.5em;
+    color:#191c32;
+    text-align: justify;
+    margin-bottom: 7px;
+}
+.tecnicals ul {
+    list-style-type: none;
+    padding: 0;   
+}
+.tecnicals ul li {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: #191c32;
+}
+
+.divider{
+    height: 4px;
+    width: 150px;
+    background-color: aquamarine;
+    margin-bottom: 1em;
+}

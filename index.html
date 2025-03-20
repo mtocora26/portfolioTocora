@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 17</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+<div class="wrapper">
+    <!--* Encabezado  -->
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+            <h2>M<span>T</span></h2>
+            </div>
+            <ul class="menu">
+                <li ><a class="activo" href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contacto">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--*Biografia-->
+    <section class="bio" id="home">
+        <div class= "infobio">
+        <h1>I'm <span>Manuel</span> Tocora</h1>
+        <br>
+        <p>
+            Soy ingeniero/a de sistemas con experiencia en desarrollo de software, gestión de bases de datos y análisis de redes. A lo largo de mi carrera, me he enfocado en diseñar y optimizar sistemas eficientes para resolver problemas complejos en entornos tecnológicos. Mi trabajo incluye el desarrollo de aplicaciones web, la implementación de redes seguras y la integración de soluciones basadas en la nube.
+        </p>
+        <br>
+        <p>
+            Estoy comprometido/a con la innovación tecnológica y en continuar mejorando mis habilidades en áreas clave como la ciberseguridad y la inteligencia artificial. Me motiva contribuir a proyectos que impulsen la transformación digital y generen un impacto positivo.
+        </p>
+        <button  class="mensaje" onclick="mostrarMensaje()">¡Bienvenidos!</button>
+    </div>
+        <img src="DSC03441-removebg-preview.png" alt="">
+    </section>
+</div>  
+
+    <!--Lista de habilidades-->
+    <section id="about" class="section">
+        <img src="resources/inge.jpeg" alt="">
+        <div class="tecnicals"> 
+        <h2>Habilidades Tecnicas</h2>
+        <div class="divider"></div>
+            <ul>
+                <li>Desarrollo de software (JavaScript, Python, Java)</li>
+                <li>Diseño y gestión de bases de datos (SQL, MySQL, PostgreSQL)</li>
+                <li>Administración de redes y seguridad informática</li>
+                <li>Desarrollo web (HTML, CSS, JavaScript, React)</li>
+                <li>Implementación de soluciones en la nube (AWS, Azure)</li>
+            </ul>
+    </div>
+    </section>
+
+
+    <!--*Formulario de contacto-->
+    <section id="contacto" class="contactsec">
+        <div class="contact-heading">
+            <h2>Contáctame</h2>
+            <div class="divider"></div>
+        </div> 
+        <div class="container-contact">
+            <img src="resources/a (2).png" alt="">   
+            <div class="contact-form">
+                <h4>Enviame  un mensaje...</h4>
+                <form class="form-group" action="" id="contact_form"  method="">
+                    <label for="nombre" class="label">Nombre:</label>
+                    <input type="text" id="nombre"  name="nombre" class="input">
+                    <label for="email" class="label">Correo Electronico:</label>
+                    <input type="emai" id="email" name="email" class="input">
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--*Pie de pagina-->
+<footer class="footer">
+        <div class="footer-content">
+            <h2> &copy Manuel Tocora</h2>
+            <h5>Frontend Developer</h5>
+        </div>
+        <div class="sotial-networks">
+
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>

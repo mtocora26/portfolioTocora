@@ -1,0 +1,47 @@
+
+.bio{
+    margin: 0 auto;
+    margin-right: 50px ;
+    width: 80vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.infobio {
+    padding: 30px;
+
+}
+.infobio h1{
+    font-size: 4em;
+}
+.infobio p{
+    font-size: 20px;
+}
+
+
+span{
+    color: aquamarine;
+}
+.mensaje{
+    font-size: inherit;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,.69);  
+}
+.mensaje:hover{
+    background-color: white;
+    box-shadow: none;
+}
+.bio img{
+    width: 350px;
+    border: 7px solid aquamarine;
+    height: 520px;
+}
